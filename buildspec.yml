@@ -8,12 +8,10 @@ phases:
   pre_build:
     commands:
 
-      -echo installing dependencies
-      -npm install
+      - echo installing dependencies
+      - npm install
 
   build:
     commands:
-      -echo Running tests
-      -npm test
-
-
+      - echo Running tests
+      - npm test
