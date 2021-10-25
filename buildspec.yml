@@ -1,19 +1,19 @@
 version:0.2
 
 phases:
-install:
-  runtime-versions:
-    nodejs:12
+  install:
+    runtime-versions:
+      nodejs:12
 
-pre_build:
-  commands:
+  pre_build:
+    commands:
 
-    -echo istalling dependencies
-    -npm install
- 
-build:
-  commands:
-    -echo Running tests
-    -npm test
+      -echo installing dependencies
+      -npm install
+
+  build:
+    commands:
+      -echo Running tests
+      -npm test
 
 
